@@ -1,0 +1,37 @@
+.popover-container {
+    display: none;
+    background-color: transparent;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .popover-window {
+    border: 1px solid rgba(100,100, 100, 0.4);
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    position:absolute;
+    z-index:2;
+    background-color: #fff;
+    
+    
+  }
+  
+  .popover-header {
+    background-color: rgba(100,100, 0, 0.2);
+    padding: 2px;
+    border-bottom: 1px solid rgba(100,100, 100, 0.4);
+  }
+  
+  .popover-main {
+    padding: 2px;
+  }
+  
+  main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
